@@ -115,7 +115,13 @@ nav .nav-bloc {
     cursor: pointer;
     font-weight: 650;
     font-size: 100%;
+    display: flex;
+    align-items: center;
 }
+
+ .search-icon {
+    color: #0065FC;
+ }
 
 .filter {
     width: 80%;
@@ -774,6 +780,7 @@ footer {
 }
 
 @media screen and (max-width:670px) {
+
     .container {
         width: 100%;
     }
@@ -794,6 +801,7 @@ footer {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+        border-bottom: 2px #F3F3F3 solid;
     }
 
     .nav-button:hover {
@@ -808,14 +816,72 @@ footer {
         margin-top: -60px;
     }
     
+    .logo {
+        margin-left: 10px;
+    }
+
     .titre {
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 30px;
     }
 
     .search-container {
-        margin-left: 5px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
+    .submit {
+        background-color: #0065FC;
+        display: flex;
+        overflow: auto;
+        width: 50px;
+        align-items: center;
+    }
 
+    .search-icon {
+        color: white;
+        width: auto;
+        flex-shrink: none;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .filter {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .pop {
+        width: 100%;
+        border-radius: 0px;
+        padding-bottom: 10px;
+    }
+
+    .pop-container {
+        align-items: center;
+    }
+
+    .pop-card {
+        width: 90%;
+        margin: 2 auto;
+    }
+
+    .info {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .heb-container {
+        background-color: white;
+    }
+
+    .ap {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
 }
